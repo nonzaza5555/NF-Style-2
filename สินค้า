@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สินค้า | NF Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NF Style</h1>
+    <nav>
+      <a href="indexs.html">หน้าแรก</a>
+      <a href="products.html">สินค้า</a>
+      <a href="cart.html">ตะกร้า</a>
+      <a href="about.html">ติดต่อเรา</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>สินค้าทั้งหมด</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x300" alt="เสื้อยืดขาว">
+        <h3>เสื้อยืดขาวมินิมอล</h3>
+        <p>฿450</p>
+        <a href="product-detail.html" class="btn">ดูรายละเอียด</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x300" alt="เสื้อดำเรียบ">
+        <h3>เสื้อดำเรียบหรู</h3>
+        <p>฿490</p>
+        <a href="product-detail.html" class="btn">ดูรายละเอียด</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x300" alt="กางเกงผ้า">
+        <h3>กางเกงผ้าโทนเทา</h3>
+        <p>฿590</p>
+        <a href="product-detail.html" class="btn">ดูรายละเอียด</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 NF Style. All rights reserved.</footer>
+</body>
+</html>
