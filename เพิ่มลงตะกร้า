@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>รายละเอียดสินค้า | NF Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NF Style</h1>
+    <nav>
+      <a href="indexs.html">หน้าแรก</a>
+      <a href="products.html">สินค้า</a>
+      <a href="cart.html">ตะกร้า</a>
+      <a href="about.html">ติดต่อเรา</a>
+    </nav>
+  </header>
+
+  <div class="container" style="display:flex; gap:40px; flex-wrap:wrap;">
+    <img src="https://via.placeholder.com/400x400" alt="สินค้า" style="border-radius:12px;">
+    <div>
+      <h2>เสื้อยืดขาวมินิมอล</h2>
+      <p>เสื้อยืดผ้าคอตตอน 100% ทรง Oversize ใส่สบาย สไตล์เกาหลี</p>
+      <h3>฿450</h3>
+      <a href="cart.html" class="btn">เพิ่มลงตะกร้า</a>
+    </div>
+  </div>
+
+  <footer>© 2025 NF Style. All rights reserved.</footer>
+</body>
+</html>
